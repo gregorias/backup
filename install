@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+HDD_BACKUP_SH=backup-the-hard-drive.sh
+
+cp ./"$HDD_BACKUP_SH" $HOME/.local/bin && \
+  chmod u+x "$HOME"/.local/bin/"$HDD_BACKUP_SH"
+
+
